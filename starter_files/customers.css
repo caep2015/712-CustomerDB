@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0% 2%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.customer-info {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: #787878;
+  margin: 5% 0%;
+}
+
+img {
+  margin-bottom: 5px;
+  width: 23vw;
+}
+
+.name {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: underline #3FA86F;
+  /*border-bottom: 1px solid #3FA86F;   line extends out */
+  padding-top: 10px;
+  font-size: 1.15rem;
+  margin: 3%;
+}
+
+.email {
+  text-transform: uppercase;
+  margin: 5% 0%;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  font-size: 0.8rem:
+}
+
+.email a {
+  text-decoration: none;
+  color: #B8B8B8;
+}
+
+.blurred-SSN {
+  margin-top: 30px;
+  color: #3FA86F;
+  filter: blur(3px);
+}
+
+.blurred-SSN:hover {
+  color: #3FA86F;
+  filter: none;
+}
